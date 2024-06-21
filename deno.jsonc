@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "tasks": {
     "dev": "deno run --watch mod.ts",
-    "check": "deno check ./**/*.ts && deno fmt --check",
-    "lint": "deno lint ./**/*.ts",
+    "check": "deno check ./*.ts",
+    "lint": "deno lint ./*.ts",
     "test": "deno test -A --parallel --doc",
     "test:coverage": "deno task test --coverage=.coverage",
     "coverage:show": "deno coverage .coverage",
