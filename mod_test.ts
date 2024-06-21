@@ -1,8 +1,12 @@
 import { test } from "@cross/test";
 import { assertEquals } from "@std/assert";
 
-import { add } from "./mod.ts";
+import { f, fAdd } from "./mod.ts";
 
 test("dummy", () => {
-  assertEquals(add(1, 2), 3);
+  assertEquals(fAdd(1, 2), 3);
+});
+
+test("dummy", () => {
+  assertEquals(f.add(1, 2), 3);
 });

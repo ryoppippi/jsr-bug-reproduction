@@ -1,5 +1,5 @@
 {
-  "name": "@ryoppippi/",
+  "name": "@ryoppippi/jsr-bug-reproduction",
   "version": "0.0.0",
   "tasks": {
     "dev": "deno run --watch mod.ts",
