@@ -1,4 +1,4 @@
-import * as mod from "jsr:@ryoppippi/jsr-bug-reproduction";
+import * as mod from "jsr:@ryoppippi/jsr-bug-reproduction@0.0.2";
 
 type Add = (a: number, b: number) => number;
 
