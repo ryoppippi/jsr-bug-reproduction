@@ -4,9 +4,7 @@
     "jsr:@cross/runtime@1.0": "1.0.0",
     "jsr:@cross/test@^0.0.14": "0.0.14",
     "jsr:@std/assert@^1.0.19": "1.0.19",
-    "jsr:@std/internal@^1.0.12": "1.0.13",
-    "npm:@types/node@*": "18.16.19",
-    "npm:cronstrue@*": "2.50.0"
+    "jsr:@std/internal@^1.0.12": "1.0.13"
   },
   "jsr": {
     "@cross/runtime@1.0.0": {
@@ -26,15 +24,6 @@
     },
     "@std/internal@1.0.13": {
       "integrity": "2f9546691d4ac2d32859c82dff284aaeac980ddeca38430d07941e7e288725c0"
-    }
-  },
-  "npm": {
-    "@types/node@18.16.19": {
-      "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA=="
-    },
-    "cronstrue@2.50.0": {
-      "integrity": "sha512-ULYhWIonJzlScCCQrPUG5uMXzXxSixty4djud9SS37DoNxDdkeRocxzHuAo4ImRBUK+mAuU5X9TSwEDccnnuPg==",
-      "bin": true
     }
   },
   "workspace": {
